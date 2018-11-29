@@ -2,7 +2,11 @@
 Machine learning models for VirFinder trained using the Tara Ocean viromes and metagenomes
 
 ## Description
-Logistic classifier for the classification of viral and non viral contig sequences from marine metagenomes. The model was trained on Tara Oceean metagenomes and viromes (the list of samples used for the training is available in Document/list.txt and raw sequence files available in Documents/Training_set). The model was trained using VirFinder training function, on 10 000 viral sequences and 10 000 non viral sequences of 5000pb with a kmer size of 8pb.
+Logistic classifier for the classification of viral and non viral contig sequences from marine metagenomes. The model was trained on Tara Ocean metagenomes and viromes (the list of samples used for the training is available in Document/list.txt and raw sequence files available in Documents/Training_set). 
+The Tara Ocean metagenomes were cleaned for potential viral sequences using Centrifuge (version XXX, database XXX).
+The Tara Ocean viromes were cleaned for potential non-viral sequences using Centrifuge (version XXX, database XXX). A second cleaning step was performed using a logistic classifier trained on 10 000 viral and 10 000 non-viral sequences of 5000pb from the RefSeq genome database. 
+
+The model was trained using VirFinder training function, on 10 000 viral sequences and 10 000 non viral sequences of 5000pb with a kmer size of 8pb.
 
 ## usage
 The installation of VirFinder is described here https://github.com/jessieren/VirFinder
