@@ -35,4 +35,4 @@ The remaining sequences were broken down to 5000bp to be used as training set. T
 
 ## VirFinder training and evaluation parameters
 VirFinder version 1.1 available at https://github.com/jessieren/VirFinder was used, and the Tara-trained models were trained using the built-in training function, using a kmer-size of 8bp and a training set of 10 000 viral and 10 000 non-viral sequences randomly selected from the cleaned Tara metagenomic sequences broken down to 5000bp.
-https://github.com/aponsero/VirFinder_Tara_trained_models/VirFinder_Tara_trained_models/Models/VF.trainModUser.model_Tara_10k.rda 
+The model is available in: Models/VF.trainModUser.model_Tara_10k.rda 
